@@ -2,7 +2,7 @@
 $page = $_SERVER['PHP_SELF'];
  $sec = "60";
  header("Refresh: $sec; url=$page");
-
+$date = date("D d F Y H:i");
 
 
 require_once('libraries/TeamSpeak3/TeamSpeak3.php');
@@ -23,7 +23,7 @@ try
   /* Edit channel and get new ID */
   echo "Edit channel with date on virtual server " . $ts3_VirtualServer . " ... ";
   $channel = $ts3_VirtualServer->channelGetById($server["ts_channel_id"]);
-  $change = array( 'channel_name' => date("D d F Y H:i"));
+  $change = array( 'channel_name' => "[cspacer0] $date");
   $channel->modify($change);
 
 }
