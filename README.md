@@ -10,3 +10,5 @@ Script date ts3
 <li>upload on ur SFTP and go in url</li>
 
 <p>just go in just 1 time and it's ok ;)</p>
+
+<img src="http://i.gyazo.com/15342a53023513a26131350afbdf0bd8.gif">
