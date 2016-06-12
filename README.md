@@ -7,6 +7,15 @@ Script date ts3
 
 <li>Upload on TeamSpeak3 framework php on your server</li>
 <li>Change line 12/13/15</li>
+```php
+        "tsip" => "localhost",
+        "tsport" => "9987",
+        "ts_query_admin" => "serveradmin",
+        "ts_query_password" => "password",
+        "ts_query_port" => "10011",
+        "ts_channel_id" => "id_channel", /* in number ex: 254*/
+    );
+```
 <li>upload on your SFTP and go in url</li>
 
 <p>just go in just 1 time and it's ok ;)</p>
