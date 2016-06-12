@@ -6,6 +6,7 @@ Script date ts3
 <p>Step by step</p>
 
 <li>Upload on TeamSpeak3 framework php on your server</li>
+<li>If u don't have TeamSpeak3 Framework PHP clic <a href="http://addons.teamspeak.com/directory/addon/integration/TeamSpeak-3-PHP-Framework.html">here</a></li>
 <li>Change line 12/13/15</li>
 ```php
         "tsip" => "localhost",
@@ -18,6 +19,6 @@ Script date ts3
 ```
 <li>upload on your SFTP and go in url</li>
 
-<p>just go in just 1 time and it's ok ;)</p>
+<p>just go your URL 1 time and it's ok ;)</p>
 
 <img src="http://i.gyazo.com/15342a53023513a26131350afbdf0bd8.gif">
